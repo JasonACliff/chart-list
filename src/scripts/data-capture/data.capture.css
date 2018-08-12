@@ -1,0 +1,22 @@
+.add-new-person {
+	
+	padding: 10px;
+	margin: 10px;
+	background: #fff;
+	
+}
+
+.add-new-person div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.add-new-person div:last-child {
+	justify-content: flex-end;
+	
+}
+
+.add-new-person button {
+	font-size: var(--normal-font);
+}

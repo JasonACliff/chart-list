@@ -1,0 +1,13 @@
+.container {
+	margin: auto;
+	display: grid;
+	width: 95vw;
+	height: 45vw;
+	
+	grid-gap: 15px 10px;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+			"people chart"
+			"add-new-person chart";
+}

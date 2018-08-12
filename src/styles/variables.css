@@ -1,0 +1,22 @@
+:root {
+	--main-font-family: 'Biryani', sans-serif;
+	
+	/* colours */
+	
+	--colour-one: #ddd;
+	/*--colour-two: ;
+	--colour-three: ;
+	--colour-four: ;
+	--colour-five: ;
+	--colour-dark: #444;
+	--colour-white: #fff;*/
+	
+	/* font sizes */
+	
+	--small-font: .9em;
+	--normal-font: 1.25em;
+	--large-font: 1.5em;
+	--largest-font: 1.75em;
+	
+	
+}
