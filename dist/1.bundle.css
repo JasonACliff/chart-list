@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Biryani);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--colour-one);
+}
+body {
+	font-family: var(--main-font-family);
+	font-size: var(--narmal-font);
+}
+:root {
+	--main-font-family: 'Biryani', sans-serif;
+	
+	/* colours */
+	
+	--colour-one: #ddd;
+	/*--colour-two: ;
+	--colour-three: ;
+	--colour-four: ;
+	--colour-five: ;
+	--colour-dark: #444;
+	--colour-white: #fff;*/
+	
+	/* font sizes */
+	
+	--small-font: .9em;
+	--normal-font: 1.25em;
+	--large-font: 1.5em;
+	--largest-font: 1.75em;
+	
+	
+}
+
+.chart {
+	
+	padding: 10px;
+	margin: 10px;
+	background: #fff;
+	
+}
+.add-new-person {
+	
+	padding: 10px;
+	margin: 10px;
+	background: #fff;
+	
+}
+
+.add-new-person div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.add-new-person div:last-child {
+	justify-content: flex-end;
+	
+}
+
+.add-new-person button {
+	font-size: var(--normal-font);
+}
+
+.people {
+	list-style: none;
+	padding: 10px;
+	margin: 10px;
+	background: #fff;
+	
+}
+
+.people li {
+	display: flex;
+	justify-content: space-between;
+	min-width: 40vw;
+}
+
+.person {
+	display: flex;
+	width: 80%;
+	justify-content: space-evenly;
+}
+
+.person span {
+	width: 30%;
+}
+.container {
+	margin: auto;
+	display: grid;
+	width: 95vw;
+	height: 45vw;
+	
+	grid-gap: 15px 10px;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+			"people chart"
+			"add-new-person chart";
+}
+
